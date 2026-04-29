@@ -22,8 +22,8 @@ mongoose.connect("mongodb+srv://admin:admin123@cluster0.5lemxto.mongodb.net/gree
 .then(() => {
   console.log("MongoDB Connected");
 
-  app.listen(5001, () => {
-  console.log("Server running on port 5001");
+  app.listen(process.env.PORT || 5001, () => {
+  console.log("Server running");
 });
 })
 .catch((err) => console.log(err));
