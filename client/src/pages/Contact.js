@@ -26,7 +26,7 @@ function Contact() {
 
     try {
       await axios.post(
-  "http://localhost:5001/api/contact",
+  "https://greenscape-works.onrender.com",
   form,
   {
     headers: {
