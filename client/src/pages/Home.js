@@ -132,88 +132,104 @@ margin:"auto",
 
 {/* Services Preview Section */}
 
-<section style={{ padding: "60px 20px", textAlign: "center", background: "#f9fafb" }}>
-
-    <h2 style={{ fontSize: "32px", marginBottom: "40px" }}>
-    Our Services
-    </h2>
-
-    <div
-    style={{
-    display: "flex",
-    justifyContent: "center",
-    gap: "25px",
-    flexWrap: "nowrap",
-    maxWidth: "1100px",
-    margin: "auto",
-    }}
+<section
+  style={{
+    padding: "60px 20px",
+    textAlign: "center",
+    background: "#f9fafb",
+  }}
 >
+  <h2
+    style={{
+      fontSize: "32px",
+      marginBottom: "40px",
+    }}
+  >
+    Our Services
+  </h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+      gap: "25px",
+      maxWidth: "1100px",
+      margin: "auto",
+    }}
+  >
     {[
-    {
+      {
         title: "Ride-On Lawn Mowing",
         image: "/images/rideon.jpg",
         description: "Fast mowing for large lawns and commercial spaces.",
-    },
-    {
+      },
+      {
         title: "Lawn Mowing",
         image: "/images/lawn.jpg",
         description: "Keep your lawn neat and healthy.",
-    },
-    {
+      },
+      {
         title: "Spraying Services",
         image: "/images/spray.jpg",
         description: "Effective weed control with eco-friendly options.",
-    },
-    {
+      },
+      {
         title: "Tree & Hedge Trimming",
-        image: "/images/Tree.jpg",
+        image: "/images/tree.jpg",
         description: "Clean, healthy, and well-shaped greenery.",
-    },
+      },
     ].map((service, index) => (
-    <div
+      <div
         key={index}
         style={{
-        width: "260px",
-        background: "white",
-        borderRadius: "15px",
-        overflow: "hidden",
-        boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
+          background: "white",
+          borderRadius: "15px",
+          overflow: "hidden",
+          boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
         }}
-    >
+      >
         <img
-        src={service.image}
-        alt={service.title}
-        style={{ width: "100%", height: "160px", objectFit: "cover" }}
+          src={service.image}
+          alt={service.title}
+          style={{
+            width: "100%",
+            height: "180px",
+            objectFit: "cover",
+          }}
         />
 
         <div style={{ padding: "15px" }}>
-        <h3>{service.title}</h3>
-        <p style={{ fontSize: "14px", color: "#555" }}>
-            {service.description}
-        </p>
-        </div>
-    </div>
-    ))}
-    </div>
+          <h3>{service.title}</h3>
 
-  {/* Button */}
-    <button
+          <p
+            style={{
+              fontSize: "14px",
+              color: "#555",
+            }}
+          >
+            {service.description}
+          </p>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <button
     onClick={() => navigate("/services")}
     style={{
-    marginTop: "30px",
-    padding: "12px 25px",
-    background: "#2e7d32",
-    color: "white",
-    border: "none",
-    borderRadius: "8px",
-    cursor: "pointer",
-    fontWeight: "bold",
-    fontSize: "16px",
+      marginTop: "30px",
+      padding: "12px 25px",
+      background: "#2e7d32",
+      color: "white",
+      border: "none",
+      borderRadius: "8px",
+      cursor: "pointer",
+      fontWeight: "bold",
+      fontSize: "16px",
     }}
->
+  >
     View More Services
-</button>
-
+  </button>
 </section>
 
 
