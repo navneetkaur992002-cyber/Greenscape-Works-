@@ -155,60 +155,80 @@ margin:"auto",
     }}
   >
     {[
-      {
-        title: "Ride-On Lawn Mowing",
-        image: "/images/rideon.jpg",
-        description: "Fast mowing for large lawns and commercial spaces.",
-      },
-      {
-        title: "Lawn Mowing",
-        image: "/images/lawn.jpg",
-        description: "Keep your lawn neat and healthy.",
-      },
-      {
-        title: "Spraying Services",
-        image: "/images/spray.jpg",
-        description: "Effective weed control with eco-friendly options.",
-      },
-      {
-        title: "Tree & Hedge Trimming",
-        image: "/images/tree.jpg",
-        description: "Clean, healthy, and well-shaped greenery.",
-      },
-    ].map((service, index) => (
-      <div
-        key={index}
+  {
+    title: "Ride-On Lawn Mowing",
+    image: "/images/rideon.jpg",
+    description: "Fast mowing for large lawns and commercial spaces.",
+  },
+  {
+    title: "Lawn Mowing",
+    image: "/images/lawn.jpg",
+    description: "Keep your lawn neat and healthy.",
+  },
+  {
+    title: "Spraying Services",
+    image: "/images/spray.jpg",
+    description: "Effective weed control with eco-friendly options.",
+  },
+  {
+    title: "Tree & Hedge Trimming",
+    image: "/images/tree.jpg",
+    description: "Clean, healthy, and well-shaped greenery.",
+  },
+].map((service, index) => (
+  <div
+    key={index}
+    style={{
+      background: "white",
+      borderRadius: "15px",
+      overflow: "hidden",
+      boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
+    }}
+  >
+    <img
+      src={service.image}
+      alt={service.title}
+      style={{
+        width: "100%",
+        height: "180px",
+        objectFit: "cover",
+      }}
+    />
+
+    <div style={{ padding: "15px" }}>
+      <h3>{service.title}</h3>
+
+      <p
         style={{
-          background: "white",
-          borderRadius: "15px",
-          overflow: "hidden",
-          boxShadow: "0 6px 15px rgba(0,0,0,0.1)",
+          fontSize: "14px",
+          color: "#555",
         }}
       >
-        <img
-          src={service.image}
-          alt={service.title}
-          style={{
-            width: "100%",
-            height: "180px",
-            objectFit: "cover",
-          }}
-        />
+        {service.description}
+      </p>
 
-        <div style={{ padding: "15px" }}>
-          <h3>{service.title}</h3>
-
-          <p
-            style={{
-              fontSize: "14px",
-              color: "#555",
-            }}
-          >
-            {service.description}
-          </p>
-        </div>
-      </div>
-    ))}
+      {/* 🔥 BUTTON ADDED HERE */}
+      <button
+        onClick={() => navigate("/contact")}
+        style={{
+          marginTop: "15px",
+          padding: "10px 20px",
+          background: "#2e7d32",
+          color: "white",
+          border: "none",
+          borderRadius: "6px",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+      >
+        Get Free Quote
+      </button>
+    </div>
+  </div>
+))}
   </div>
 
   <button
