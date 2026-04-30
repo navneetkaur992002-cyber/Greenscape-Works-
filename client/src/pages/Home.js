@@ -18,17 +18,14 @@ text: " Our Lawn Mowing services just start from $25 per mow."
 {
 image: hero2,
 title: "Professional Tree Trimming",
-text: "Safe and reliable tree care services for your property."
 },
 {
 image: hero3,
 title: "Expert Lawn Mowing Services",
-text: "Keeping your lawns Tidy with our Mulch and Catch services."
 },
 {
 image: hero4,
 title:"Premium Paving Solutions",
-text: "Transform your outdoor with stylish paving for driveways, patios, and walkways."
 },
 ];
 
