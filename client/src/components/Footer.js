@@ -59,7 +59,7 @@ function Footer() {
         </a>
 
         <a 
-          href="mailto:greenscapeworks@gmail.com"
+          href="mailto:worksgreenscape@gmail.com"
           style={{
             display:"inline-block",
             margin:"10px",
