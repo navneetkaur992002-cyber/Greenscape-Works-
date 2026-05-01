@@ -232,7 +232,10 @@ margin:"auto",
   </div>
 
   <button
-    onClick={() => navigate("/services")}
+    onClick={() => {
+  alert("Message sent successfully");
+  navigate("/contact");
+}}
     style={{
       marginTop: "30px",
       padding: "12px 25px",
