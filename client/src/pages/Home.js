@@ -234,7 +234,7 @@ margin:"auto",
   <button
     onClick={() => {
   alert("Message sent successfully");
-  navigate("/contact");
+  navigate("/services");
 }}
     style={{
       marginTop: "30px",
