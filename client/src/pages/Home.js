@@ -233,7 +233,6 @@ margin:"auto",
 
   <button
     onClick={() => {
-  alert("Message sent successfully");
   navigate("/services");
 }}
     style={{
