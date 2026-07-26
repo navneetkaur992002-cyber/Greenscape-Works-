@@ -1,46 +1,66 @@
 import { useState, useEffect } from "react";
 import hero1 from "../assets/hero1.jpg";
-import hero2 from "../assets/hero2.jpg";
-import hero3 from "../assets/hero3.jpg";
-import hero4 from "../assets/hero4.jpg";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
 
 const navigate = useNavigate();
 
-const slides = [
-{
-image: hero1,
-title: "Transform Your Outdoor Space",
-text: " Our Lawn Mowing services just start from $25 per mow."
-},
-{
-image: hero2,
-title: "Professional Tree Trimming",
-},
-{
-image: hero3,
-title: "Expert Lawn Mowing Services",
-},
-{
-image: hero4,
-title:"Premium Paving Solutions",
-},
-];
+<div
+  style={{
+    backgroundImage: `url(${hero1})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "600px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "white",
+    textAlign: "center",
+    position: "relative",
+  }}
+>
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0,0,0,0.45)",
+    }}
+  ></div>
 
-const [currentImage, setCurrentImage] = useState(0);
+  <div style={{ position: "relative", zIndex: 1 }}>
+    <h1 style={{ fontSize: "50px", fontWeight: "bold" }}>
+      Transform Your Outdoor Space
+    </h1>
 
-useEffect(() => {
-const interval = setInterval(() => {
-setCurrentImage((prev) => (prev + 1) % slides.length);
-}, 4000);
+    <p
+      style={{
+        fontSize: "24px",
+        marginTop: "15px",
+      }}
+    >
+      Professional Lawn Care & Landscaping Services
+    </p>
 
-return () => clearInterval(interval);
-}, [slides.length]);
-
-return (
-<div>
+    <button
+      onClick={() => navigate("/contact")}
+      style={{
+        marginTop: "30px",
+        padding: "15px 35px",
+        background: "#2e7d32",
+        color: "white",
+        border: "none",
+        borderRadius: "8px",
+        fontSize: "20px",
+        fontWeight: "bold",
+        cursor: "pointer",
+      }}
+    >
+      Get a Free Quote
+    </button>
+  </div>
+</div>
 
 {/* Hero Section */}
 
