@@ -86,47 +86,6 @@ Get Free Quote
 
 </div>
 
-{/* Why Choose Us */}
-
-<section style={{padding:"60px 20px", background:"#22671b", textAlign:"center"}}>
-
-<h2 style={{fontSize:"32px", marginBottom:"40px", color:"#ebefec"}}>
-Why Choose Us?
-</h2>
-
-<div style={{
-display:"grid",
-gridTemplateColumns:"repeat(auto-fit, minmax(220px, 1fr))",
-gap:"30px",
-maxWidth:"1000px",
-margin:"auto",
-
-}}>
-
-<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
-<h3>Reliable</h3>
-<p>We provide dependable landscaping services and always complete projects on time with high quality work.</p>
-</div>
-
-<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
-<h3>Affordable</h3>
-<p>Our Professional Lawn Mowing services just start from $25 per mow.</p>
-</div>
-
-<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
-<h3>100% Customer Satisfaction</h3>
-<p>We focus on customer happiness and make sure every client is satisfied with our landscaping services.</p>
-</div>
-
-<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
-<h3>Get Free Quote</h3>
-<p>Contact us today for a free quote and let us transform your outdoor space into something beautiful.</p>
-</div>
-
-</div>
-
-</section>
-
 {/* Services Preview Section */}
 
 <section
@@ -250,7 +209,46 @@ margin:"auto",
     View More Services
   </button>
 </section>
+{/* Why Choose Us */}
 
+<section style={{padding:"60px 20px", background:"#22671b", textAlign:"center"}}>
+
+<h2 style={{fontSize:"32px", marginBottom:"40px", color:"#ebefec"}}>
+Why Choose Us?
+</h2>
+
+<div style={{
+display:"grid",
+gridTemplateColumns:"repeat(auto-fit, minmax(220px, 1fr))",
+gap:"30px",
+maxWidth:"1000px",
+margin:"auto",
+
+}}>
+
+<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
+<h3>Reliable</h3>
+<p>We provide dependable landscaping services and always complete projects on time with high quality work.</p>
+</div>
+
+<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
+<h3>Affordable</h3>
+<p>Our Professional Lawn Mowing services just start from $25 per mow.</p>
+</div>
+
+<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
+<h3>100% Customer Satisfaction</h3>
+<p>We focus on customer happiness and make sure every client is satisfied with our landscaping services.</p>
+</div>
+
+<div style={{background:"white", padding:"25px", borderRadius:"10px", boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
+<h3>Get Free Quote</h3>
+<p>Contact us today for a free quote and let us transform your outdoor space into something beautiful.</p>
+</div>
+
+</div>
+
+</section>
 
 </div>
 );
