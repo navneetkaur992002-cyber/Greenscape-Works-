@@ -18,14 +18,14 @@ function Services() {
       description: "Professional lawn mowing to keep your yard neat and healthy.",
     },
     {
-      title: "Spraying Services",
-      image: "/images/spray.jpg",
-      description: "Our professional spraying services offer the perfect balance of high-performance weed control and eco-friendly, organic options for a healthy, pristine landscape..",
+    title: "Gardening and hedge trimming",
+    image: "/images/gardening.jpg",
+    description: "Expert gardening and hedge trimming to enhance the beauty, health, and appearance of your garden and landscape.",
     },
     {
-      title: "Tree Trimming and Hedge Trimming",
+      title: "Tree Trimming",
       image: "/images/Tree.jpg",
-      description: "Professional tree and hedge trimming services to keep your outdoor space neat, healthy, and beautifully maintained all year round.",
+      description: "Professional tree trimming services to keep your outdoor space neat, healthy, and beautifully maintained all year round.",
     },
     {
     title: "Paving",
@@ -36,6 +36,11 @@ function Services() {
     title: "Fencing",
     image: "/images/fencing.jpg",
     description: "High-quality fencing solutions designed to enhance security and improve the overall look of your outdoor space.",
+    },
+    {
+      title: "Spraying Services",
+      image: "/images/spray.jpg",
+      description: "Our professional spraying services offer the perfect balance of high-performance weed control and eco-friendly, organic options for a healthy, pristine landscape..",
     }
   ];
 
