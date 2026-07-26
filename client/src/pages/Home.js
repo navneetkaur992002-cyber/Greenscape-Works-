@@ -96,22 +96,26 @@ return(
     title: "Ride-On Lawn Mowing",
     image: "/images/rideon.jpg",
     description: "Fast mowing for large lawns and commercial spaces.",
-  },
-  {
-    title: "Gardening and hedge trimming",
+  },{
+  title: "Gardening and hedge trimming",
     image: "/images/gardening.jpg",
     description: "Expert gardening and hedge trimming to enhance the beauty, health, and appearance of your garden and landscape.",
-    },
+  },
   {
     title: "Lawn Mowing",
     image: "/images/lawn.jpg",
     description: "Keep your lawn neat and healthy.",
   },
   {
-    title: "Tree Trimming",
-    image: "/images/tree.jpg",
-    description: "Clean, healthy, and well-shaped greenery.",
+      title: "Weed spray and turf management",
+      image: "/images/spray.jpg",
+      description: "Our professional spraying services offer the perfect balance of high-performance weed control and eco-friendly, organic options for a healthy, pristine landscape..",
   },
+  {
+      title: "Tree Trimming",
+      image: "/images/tree.jpg",
+      description: "Professional tree trimming services to keep your outdoor space neat, healthy, and beautifully maintained all year round.",
+    },
 ].map((service, index) => (
   <div
     key={index}
