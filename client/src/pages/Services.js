@@ -24,7 +24,7 @@ function Services() {
     },
     {
       title: "Tree Trimming",
-      image: "/images/Tree.jpg",
+      image: "/images/tree.jpg",
       description: "Professional tree trimming services to keep your outdoor space neat, healthy, and beautifully maintained all year round.",
     },
     {
