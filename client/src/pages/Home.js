@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+
 import hero1 from "../assets/hero1.jpg";
 import { useNavigate } from "react-router-dom";
 
