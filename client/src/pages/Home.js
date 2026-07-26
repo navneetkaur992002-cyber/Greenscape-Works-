@@ -15,6 +15,18 @@ image: hero1,
 title: "Transform Your Outdoor Space",
 text: " Our Lawn Mowing services just start from $25 per mow."
 },
+{
+image: hero2,
+title: "Professional Tree Trimming",
+},
+{
+image: hero3,
+title: "Expert Lawn Mowing Services",
+},
+{
+image: hero4,
+title:"Premium Paving Solutions",
+},
 ];
 
 const [currentImage, setCurrentImage] = useState(0);
