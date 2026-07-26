@@ -98,6 +98,11 @@ return(
     description: "Fast mowing for large lawns and commercial spaces.",
   },
   {
+    title: "Gardening and hedge trimming",
+    image: "/images/gardening.jpg",
+    description: "Expert gardening and hedge trimming to enhance the beauty, health, and appearance of your garden and landscape.",
+    },
+  {
     title: "Lawn Mowing",
     image: "/images/lawn.jpg",
     description: "Keep your lawn neat and healthy.",
