@@ -103,11 +103,6 @@ return(
     description: "Keep your lawn neat and healthy.",
   },
   {
-  title: "Gardening and hedge trimming",
-    image: "/images/gardening.jpg",
-    description: "Expert gardening and hedge trimming to enhance the beauty, health, and appearance of your garden and landscape.",
-  },
-  {
     title: "Tree Trimming",
     image: "/images/tree.jpg",
     description: "Clean, healthy, and well-shaped greenery.",

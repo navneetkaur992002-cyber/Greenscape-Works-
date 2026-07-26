@@ -13,17 +13,17 @@ function Services() {
       description: "Efficient and fast lawn mowing using ride-on machines, perfect for lifestyle blocks and commercial properties.",
     },
     {
-      title: "Lawn Mowing",
-      image: "/images/lawn.jpg",
-      description: "Professional lawn mowing to keep your yard neat and healthy.",
-    },
-    {
     title: "Gardening and hedge trimming",
     image: "/images/gardening.jpg",
     description: "Expert gardening and hedge trimming to enhance the beauty, health, and appearance of your garden and landscape.",
     },
     {
-      title: "Weed spray or turf management",
+      title: "Lawn Mowing",
+      image: "/images/lawn.jpg",
+      description: "Professional lawn mowing to keep your yard neat and healthy.",
+    },
+    {
+      title: "Weed spray and turf management",
       image: "/images/spray.jpg",
       description: "Our professional spraying services offer the perfect balance of high-performance weed control and eco-friendly, organic options for a healthy, pristine landscape..",
     },
