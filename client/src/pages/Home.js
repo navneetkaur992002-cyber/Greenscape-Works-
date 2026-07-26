@@ -29,7 +29,7 @@ return(
       inset: 0,
       background: "rgba(0,0,0,0.45)",
     }}
-  ></div>
+  />
 
   <div style={{ position: "relative", zIndex: 1 }}>
     <h1 style={{ fontSize: "50px", fontWeight: "bold" }}>
@@ -63,51 +63,6 @@ return(
     </button>
   </div>
 </div>
-
-{/* Hero Section */}
-
-<div
-style={{
-backgroundImage: `url(${slides[currentImage].image})`,
-backgroundSize: "cover",
-backgroundPosition: "center",
-height: "600px",
-display: "flex",
-flexDirection: "column",
-justifyContent: "center",
-alignItems: "center",
-color: "white",
-textAlign: "center",
-transition: "background-image 1s ease-in-out"
-}}
->
-
-<h1 style={{fontSize:"45px", background:"rgba(0,0,0,0.5)", padding:"10px"}}>
-{slides[currentImage].title}
-</h1>
-
-<p style={{fontSize:"40px", marginTop:"10px", background:"rgba(0,0,0,0.5)", padding:"10px"}}>
-{slides[currentImage].text}
-</p>
-
-
-<button
-onClick={() => navigate("/contact")}
-style={{
-marginTop:"20px",
-padding:"12px 25px",
-background:"#2e7d32",
-color:"white",
-border:"none",
-fontSize:"25px",
-cursor:"pointer"
-}}
->
-Get Free Quote
-</button>
-
-</div>
-
 {/* Services Preview Section */}
 
 <section
